@@ -34,8 +34,8 @@ def index():
 
 @app.route('/analyse', methods=['POST'])
 def analyse():
-    my_user="NavdeeeeepKaur"
-    my_pass="Trustnoone@123"
+    my_user="" #your username here
+    my_pass="" #your password here
     sleep(3)
     if request.method=='POST':
         search_item=request.form['rawtext']
